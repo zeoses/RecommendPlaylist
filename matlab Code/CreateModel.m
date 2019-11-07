@@ -1,14 +1,14 @@
  function model = CreateModel()
 
     
-    load('Dataset120.mat');
+    load('../Dataset/Dataset120.mat');
     
   n=numel(Name);
   x=randi(150,1,n);
   y=randi(150,1,n);
     
     
-%     Dataset=xlsread('Dataset.xlsx');
+%   Dataset=xlsread('Dataset.xlsx');
 
     D=zeros(n,n);
     
